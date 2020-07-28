@@ -4,21 +4,21 @@
 }
 
 :root {
-  --primary: #6441a5;
-  --black: #000000;
+  --primary: #4f8a8b;
+  --black: black;
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;
   --grayMedium: #e5e5e5; 
   --white: #FFFFFF;
   --frontEnd: #6BD1FF;
-  --backEnd: #00C86F;
+  --backEnd: #4f8a8b;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #141414;
+  background: black;
 }
 
 a {
