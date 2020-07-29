@@ -18,9 +18,23 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background: black;
 }
 
 a {
   color: inherit;
-} 
+}
+
+h1 {
+  color: #fff;
+}
+
+span {
+  color: #fff;
+}
+
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - var(--bodyPaddingTop));
+}
